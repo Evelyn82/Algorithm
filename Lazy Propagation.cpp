@@ -8,7 +8,7 @@ struct RSQ {
 	vector<ll> lazy;
 	RSQ(const vector<ll>& array) {
 		n = array.size();
-		rangeSum.resize(n * 4);
+		rangeSum.resize(n * 4, 0);
 		lazy.resize(n * 4, 0);
 		init(array, 0, n - 1, 1);
 	}
