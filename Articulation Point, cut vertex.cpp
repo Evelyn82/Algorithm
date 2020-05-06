@@ -5,12 +5,12 @@
 using namespace std;
 
 const int MAXV = 1e4 + 1;
-int V, E, discovered[MAXV], couter = 1;
+int V, E, discovered[MAXV], counter = 1;
 bool visited[MAXV];
 vector<int> v[MAXV];
 vector<int> isCutVertex;
 int findCutVertex(int n, bool isRoot) {
-	discovered[n] = couter++;
+	discovered[n] = counter++;
 	int ret = discovered[n];
 
 	int children = 0;
@@ -43,7 +43,7 @@ int main() {
 	memset(discovered, -1, sizeof(discovered));
 	for (int i = 1; i < MAXV; i++) {
 		if (visited[i] && discovered[i] == -1) {
-			couter = 1;
+			counter = 1;
 			findCutVertex(i, true);
 		}
 	}
