@@ -12,7 +12,7 @@ struct Node {
 	Node* left;
 	Node* right;
 
-	// priority¸¦ randomÀ¸·Î ¼³Á¤
+	// priorityë¥¼ randomìœ¼ë¡œ ì„¤ì •
 	Node(const keyType& _key) : key(_key), priority(rand()), size(1), left(NULL), right(NULL) {}
 
 	void setLeft(Node* newLeft) {
@@ -24,9 +24,9 @@ struct Node {
 		calcSize();
 	}
 	
-	// size ÃÊ±âÈ­
+	// size ì´ˆê¸°í™”
 	void calcSize() {
-		size = 1; // ÀÚ±âÀÚ½Å
+		size = 1; // ìžê¸°ìžì‹ 
 		if (left) size += left->size;
 		if (right) size += right->size;
 	}
