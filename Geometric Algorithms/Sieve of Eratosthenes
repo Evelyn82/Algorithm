@@ -1,0 +1,20 @@
+#include <vector>
+#include <cmath>
+#include <algorithm>
+using namespace std;
+
+const int MAXN = 30001;
+vector<bool> prime;
+void solution(int n) {
+	prime.resize(MAXN + 1, true);
+	prime[0] = prime[1] = false;
+  
+	int sqrtn = int(sqrt(n));
+	for (int i = 2; i <= sqrtn; i++) {
+		if (prime[i]) {
+			for (int j = i * i; j < MAXN; j += i) {
+				prime[j] = false;
+			}
+		}
+	}
+}
