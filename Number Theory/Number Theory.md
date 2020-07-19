@@ -1,4 +1,4 @@
-### Numbeer Theory 정수론
+### Number Theory 정수론
 
 ### Prime 소수
 Composite Number 합성수 : 소수와 반대로, 3개 이상의 양의 약수를 갖는 자연수   
