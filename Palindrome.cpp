@@ -1,3 +1,7 @@
+// O(n^2) 
+// n = 1e4이면 O(1e8) = 1억
+// 즉, n이 le4이상이면 Palindrome이 아닌 O(n)인 Manacher's algorithm으로 사용한다.
+
 #include <iostream>
 using namespace std;
 
