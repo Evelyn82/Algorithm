@@ -9,6 +9,10 @@ void eratosthenes(int n) {
 	for (int i = 2; i <= n; i++) {
 		minFactor[i] = i;
 	}
+	
+	// sqrt(n) 까지만 탐색하는 이유
+	// 자연수 n이 n의 제곱근보다 크지 않은 어떤 소수로도 나눠지지 않는다.
+	// 즉, 몫과 나누는 수, 둘 중 하나는 반드시 sqrt(n) 이하이다.
 	int sqrtn = (int)sqrt(n);
 	for (int i = 2; i <= sqrtn; i++) {
 		if (minFactor[i] == i) {
