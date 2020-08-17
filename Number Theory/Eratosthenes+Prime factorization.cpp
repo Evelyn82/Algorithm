@@ -27,7 +27,7 @@ void eratosthenes(int n) {
 vector<int> PrimeFactorization(int n) {
 	vector<int> ret;
 	while (n > 1) {
-		ret.push_back(minFactor[n]);
+		ret.push_back(n);
 		n /= minFactor[n];
 	}return ret;
 }
