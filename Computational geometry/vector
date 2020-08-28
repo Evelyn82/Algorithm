@@ -1,6 +1,8 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
 
+// const double PI =  2.0 * acos(0.0);
+
 struct vector {
 	double x, y;
 
@@ -16,14 +18,17 @@ struct vector {
 
 	vector operator + (const vector& other) const {
 		return vector(x + other.x, y + other.y);
+		// other의 시작점을 *this의 끝점으로 옮겼을 때 other의 끝점에서 끝나는 vector
 	}
 
 	vector operator - (const vector& other) const {
 		return vector(x - other.x, y - other.y);
+		// x - y 는 y의 끝점에서 x의 끝점으로 가는 vector
 	}
 
 	vector operator * (double n) const {
 		return vector(n * x, n * y);
+		// vector의 길이를 n배로 늘린 vector
 	}
 
 	double norm() const {
