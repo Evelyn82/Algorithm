@@ -1,7 +1,4 @@
-#define _USE_MATH_DEFINES
-#include <math.h>
-
-// const double PI =  2.0 * acos(0.0);
+const double PI =  2.0 * acos(0.0);
 
 struct vector {
 	double x, y;
@@ -44,7 +41,7 @@ struct vector {
 	double polar_angle() const {
 		// double fmod(double x, double y) returns the remainder of x divided by y
 		// atan2 -> https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/hypot-hypotf-hypotl-hypot-hypotf-hypotl?view=vs-2019
-		return fmod(atan2(y, x) + 2 * M_PI, 2 * M_PI);
+		return fmod(atan2(y, x) + 2 * PI, 2 * PI);
 
 		atan2()의 return 값은 [ -PI, PI ] 이므로, [ 0, 2 * PI ) 구간의 값이 되도록 fmod()를 사용.
 		(2 * PI)를 더한 뒤 (2 * PI)로 나눈 나머지는 항상 [ 0, 2 * PI ) 구간에 존재.
