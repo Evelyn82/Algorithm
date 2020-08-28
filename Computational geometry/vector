@@ -52,7 +52,8 @@ struct vector {
 	double dot_product(const vector& other) const {
 		return x * other.x + y * other.y;
 	}
-		
+	
+	// outer product
 	double cross_product(const vector& other) const {
 		return x * other.y - other.x * y;
 	}
