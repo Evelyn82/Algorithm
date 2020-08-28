@@ -59,3 +59,7 @@ struct vector {
 		return r * r.dot_product(*this);
 	}
 };
+
+double howMuchCloser(vector& p, vector& a, vector& b){
+	return (b - p).norm() - (a - p).norm();
+}
