@@ -49,8 +49,8 @@ int main() {
 		// +1 안해도 AC
 		int d = (int)sqrt((double)ans) + 1;
 		
-		auto lower_point = Point(-100000, now.y - d);
-		auto upper_point = Point(100000, now.y + d);
+		auto lower_point = Point(-1e5, now.y - d);
+		auto upper_point = Point(1e5, now.y + d);
 		
 		auto lower = candidate.lower_bound(lower_point);
 		auto upper = candidate.upper_bound(upper_point);
