@@ -45,11 +45,16 @@ int main() {
 			else break;
 		}
 		
+		// d의 값에 +1 하는 이유 -> 소수 부분으로 인해 영향을 받을 수 있으니, 각 bound 마다 범위를 1씩 더해 넉넉하게 해줌.
+		// +1 안해도 AC
 		int d = (int)sqrt((double)ans) + 1;
+		
 		auto lower_point = Point(-100000, now.y - d);
 		auto upper_point = Point(100000, now.y + d);
+		
 		auto lower = candidate.lower_bound(lower_point);
 		auto upper = candidate.upper_bound(upper_point);
+		
 		for (auto it = lower; it != upper; it++) {
 			int d = dist(now, *it);
 			if (d < ans) ans = d;
