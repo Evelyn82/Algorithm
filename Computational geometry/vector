@@ -64,6 +64,11 @@ struct vector {
 	}
 };
 
+// 3개의 점에서 a가 b보다 p에 얼마나 가까운가
 double howMuchCloser(vector& p, vector& a, vector& b){
 	return (b - p).norm() - (a - p).norm();
+}
+
+double Counter_ClockWise(vector& a, vector& b) {
+	return a.cross_product(b);
 }
