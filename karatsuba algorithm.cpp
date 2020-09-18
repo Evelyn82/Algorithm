@@ -24,26 +24,20 @@ vector<int> multiply(const vector<int>& a, const vector<int>& b) {
 			v[i + j] += a[i] * b[j];
 		}
 	}
-	normalize(v);
+	//normalize(v);
 	return v;
 }
 void addTo(vector<int>& a, const vector<int>& b, int k) {
-	vector<int> v(a.size() + b.size() + 1, 0);
-	int size = max(a.size(), b.size());
-	for (int i = 0; i < size; ++i) {
-		v[i] = a[i] + b[i];
+	a.resize(max(a.size(), b.size() + k));
+	for (int i = 0; i < b.size(); i++) {
+		a[i + k] += b[i];
 	}
-	normalize(v);
-	a = v;
 }
 void subFrom(vector<int>& a, const vector<int>& b) {
-	vector<int> v(a.size() + b.size() + 1, 0);
-	int size = max(a.size(), b.size());
-	for (int i = 0; i < size; ++i) {
-		v[i] = a[i] - b[i];
+	a.resize(max(a.size(), b.size()) + 1);
+	for (int i = 0; i < b.size(); i++) {
+		a[i] -= b[i];
 	}
-	normalize(v);
-	a = v;
 }
 vector<int> karatsuba(const vector<int>& a, const vector<int>& b) {
 	int an = a.size(), bn = b.size();
