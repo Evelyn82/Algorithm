@@ -46,7 +46,7 @@ struct RSQ {
 		rangeSum[node] = rangeSum[node * 2] + rangeSum[node * 2 + 1];
 	}
 	void update_range(int left, int right, int diff) {
-		update_range(left, right, 1, 0, n - 1, diff);
+		update_range(left - 1, right - 1, 1, 0, n - 1, diff);
 	}
 	ll sumQuery(int left, int right, int node, int nodeleft, int noderight) {
 		update_lazy(nodeleft, noderight, node);
@@ -56,6 +56,6 @@ struct RSQ {
 		return sumQuery(left, right, node * 2, nodeleft, mid) + sumQuery(left, right, node * 2 + 1, mid + 1, noderight);
 	}
 	ll sumQuery(int left, int right) {
-		return sumQuery(left, right, 1, 0, n - 1);
+		return sumQuery(left - 1, right - 1, 1, 0, n - 1);
 	}
 };
