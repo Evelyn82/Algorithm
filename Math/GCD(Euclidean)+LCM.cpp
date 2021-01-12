@@ -1,4 +1,4 @@
-// Greatest Common Divisor
+// Greatest Common Divisor -> Euclidean Algorithm
 int GCD(int a, int b){
   int tmp;
   while(b){
