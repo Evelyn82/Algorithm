@@ -4,7 +4,7 @@ int GCD(int a, int b){
   while(b){
     tmp=a%b;
     a=b;
-    b=a;
+    b=tmp;
   }
   return a;
 }
