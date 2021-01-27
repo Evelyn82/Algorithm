@@ -1,0 +1,52 @@
+// 52ms
+/*
+typedef long long ll;
+struct ConvexHull{
+    ll x, y;
+    ll p, q;
+    ConvexHull(ll x1=0, ll y1=0):x(x1), y(y1), p(1), q(0){}
+}c[MX];
+bool cmp(const ConvexHull& a, const ConvexHull& b){
+    if(a.q*b.p != a.p*b.q) return a.q*b.p < a.p*b.q;
+    
+    if(a.y!=b.y) return a.y<b.y;
+    return a.x<b.x;
+}
+ll ccw(const ConvexHull& a, const ConvexHull& b, const ConvexHull& c){
+    return (a.x*b.y + b.x*c.y + c.x*a.y - b.x*a.y - c.x*b.y - a.x*c.y);
+}
+
+int main(){
+    int n; scanf("%d",&n);
+    ll x,y;
+    for(int i=0;i<n;++i){
+        scanf("%lld%lld", &x,&y);
+        c[i]=ConvexHull(x,y);
+    }
+    sort(c, c+n, cmp);
+    
+    for(int i=1;i<n;++i){
+        c[i].p=c[i].x-c[0].x;
+        c[i].q=c[i].y-c[0].y;
+    }
+    sort(c+1, c+n, cmp);
+    
+    stack<int> s;
+    s.push(0);
+    s.push(1);
+    int next=2;
+    while(next<n){
+        while(s.size()>=2){
+            int first, second;
+            second=s.top(); s.pop();
+            first=s.top();
+            
+            if(ccw(c[first], c[second], c[next])>0){
+                s.push(second);
+                break;
+            }
+        }
+        s.push(next++);
+    }
+    printf("%d\n", (int)s.size()); 
+}*/
