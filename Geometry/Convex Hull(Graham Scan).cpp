@@ -4,6 +4,8 @@ typedef long long ll;
 struct ConvexHull{
     ll x, y;
     ll p, q;
+    //ConvexHull(){} 기본 생성자 작성시
+    //ConvexHull(ll x1, ll y1) : ... 작성가능
     ConvexHull(ll x1=0, ll y1=0):x(x1), y(y1), p(1), q(0){}
 }c[MX];
 bool cmp(const ConvexHull& a, const ConvexHull& b){
