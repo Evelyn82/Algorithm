@@ -9,3 +9,4 @@
 ## Tree
   - [x] Lazy Propagation<br>
   - [x] LCA(Lowest Common Ancestor)<br>
+  - [x] Fenwick Tree(BIT)<br>
