@@ -1,3 +1,6 @@
+## Geometry
+  - [x] CCW(Counter Clock Wise)
+  - [x] Convex Hull(Graham Scan)
 
 ## String
   - [ ] KMP(Knuth-Morris-Pratt Algorithm)
