@@ -1,9 +1,13 @@
 ## Geometry
-  - [x] CCW(Counter Clock Wise)
-  - [x] Convex Hull(Graham Scan)
+  - [x] CCW(Counter Clock Wise)<br>
+  - [x] Convex Hull(Graham Scan)<br>
+  
+## Math
+  - [x] Karatsuba algorithm<br>
+  - [x] Sieve of Eratosthenes<br>
 
 ## String
-  - [ ] KMP(Knuth-Morris-Pratt Algorithm)
+  - [ ] KMP(Knuth-Morris-Pratt Algorithm)<br>
   - [x] Suffix Array<br>
   - [ ] LCP(Longest Common Prefix)<br>
   - [x] Trie<br>
