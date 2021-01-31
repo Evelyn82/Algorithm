@@ -5,6 +5,8 @@
   - [ ] LCP(Longest Common Prefix)<br>
   - [x] Trie<br>
   - [ ] Aho-Corasick<br>
+  - [ ] Manacher's Algorithm<br>
+  - [ ] Z algorithm<br>
   
 ## Tree
   - [x] Lazy Propagation<br>
