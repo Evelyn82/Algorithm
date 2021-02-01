@@ -1,7 +1,7 @@
 ## Geometry
   - [x] CCW(Counter Clock Wise)<br>
   - [x] Convex Hull(Graham Scan)<br>
-  - [ ] Convex Hull Trick<br>
+  - [x] Convex Hull Trick<br>
   
 ## Math
   - [x] Karatsuba algorithm<br>
