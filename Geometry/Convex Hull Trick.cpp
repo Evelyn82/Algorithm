@@ -7,6 +7,7 @@ const int MX=1e5+1;
 
 ll h[MX], cost[MX];
 struct LinearFunc{
+    // f(x) = ax + b
     ll a, b;
     double s;
     LinearFunc():LinearFunc(1,0){}
