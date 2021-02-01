@@ -13,7 +13,7 @@
 ## String
   - [ ] KMP(Knuth-Morris-Pratt Algorithm)<br>
   - [x] Suffix Array<br>
-  - [ ] LCP(Longest Common Prefix)<br>
+  - [x] LCP(Longest Common Prefix)<br>
   - [x] Trie<br>
   - [ ] Aho-Corasick<br>
   - [ ] Manacher's Algorithm<br>
