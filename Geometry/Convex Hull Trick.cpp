@@ -14,6 +14,11 @@ struct LinearFunc{
     LinearFunc(ll a1, ll b1):a(a1), b(b1), s(0){}
 };
 
+// upper_bound
+bool operator<(const double &a, const Line &b){
+    return a<b.s;
+}
+
 inline double cross(const LinearFunc &f, const LinearFunc &g){
     return (g.b-f.b)/(f.a-g.a);
 }
