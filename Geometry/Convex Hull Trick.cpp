@@ -15,7 +15,7 @@ struct LinearFunc{
 };
 
 // upper_bound
-bool operator<(const double &a, const Line &b){
+bool operator<(const double &a, const LinearFunc &b){
     return a<b.s;
 }
 
@@ -52,8 +52,9 @@ int main(){
             }fpos=low;
         }
         
+        // 직접구현(line 47~53)한 것과 upper_bound 사용시, 처리시간 동일
         /*
-        int fpos=upper_bound(f.begin(), f.end(), h[i])-f.begin();
+        int fpos=upper_bound(f, f+top, h[i]) - f;
         fpos--;
         dp[i]=f[fpos].a*h[i] + f[fpos].b;
         */
