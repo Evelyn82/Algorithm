@@ -2,6 +2,7 @@
   - [x] CCW(Counter Clock Wise)<br>
   - [x] Convex Hull(Graham Scan)<br>
   - [x] Convex Hull Trick<br>
+  - [ ] Rotating Calipers Algorithm<br>
   
 ## Math
   - [x] Karatsuba algorithm<br>
