@@ -3,7 +3,7 @@
   - [x] Convex Hull(Graham Scan)<br>
   - [x] Convex Hull Trick<br>
   - [ ] Rotating Calipers Algorithm(Shamos's algorithm)<br>
-  - [ ] Sweep line algorithm<br>
+  - [ ] Sweep line algorithm(Sweeping)<br>
   
 ## Math
   - [x] Karatsuba algorithm<br>
