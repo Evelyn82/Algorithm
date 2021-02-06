@@ -2,7 +2,7 @@
   - [x] CCW(Counter Clock Wise)<br>
   - [x] Convex Hull(Graham Scan)<br>
   - [x] Convex Hull Trick<br>
-  - [ ] Rotating Calipers Algorithm(Shamos's algorithm)<br>
+  - [x] Rotating Calipers Algorithm(Shamos's algorithm)<br>
   - [x] Sweep line algorithm(Sweeping)<br>
   
 ## Math
