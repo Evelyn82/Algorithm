@@ -2,9 +2,8 @@ int* getPi(string p){
     int sz=(int)p.size();
     int *pi=new int[sz];
     pi[0]=0;
-    int j=0;
     
-    for(int i=1;i<sz;++i){
+    for(int i=1, j=0;i<sz;++i){
         while(p[i]!=p[j]){
             if(j==0){
                 pi[i]=j; break;
