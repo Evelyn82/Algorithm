@@ -13,7 +13,7 @@
   - [ ] Fast Fourier Transform<br>
 
 ## String
-  - [ ] KMP(Knuth-Morris-Pratt Algorithm)<br>
+  - [x] KMP(Knuth-Morris-Pratt Algorithm)<br>
   - [x] Suffix Array<br>
   - [x] LCP(Longest Common Prefix)<br>
   - [x] Trie<br>
