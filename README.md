@@ -17,6 +17,9 @@
   - [x] Suffix Array<br>
   - [x] LCP(Longest Common Prefix)<br>
   - [x] Trie<br>
+  - [ ] Rabin-Karp Algorithm<br>
+    * [Horner's method](https://jackpot53.tistory.com/119)<br>
+    * Modular arithmetic<br>
   - [ ] Aho-Corasick<br>
   - [ ] Manacher's Algorithm<br>
   - [ ] Z algorithm<br>
