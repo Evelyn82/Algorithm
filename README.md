@@ -21,7 +21,7 @@
   - [x] Rabin-Karp Algorithm(using [Rolling hash](https://en.wikipedia.org/wiki/Rolling_hash))<br>
     * [Horner's method](https://jackpot53.tistory.com/119)<br>
     * Modular arithmetic<br>
-  - [ ] Aho-Corasick<br>
+  - [ ] [Aho-Corasick](https://m.blog.naver.com/kks227/220992598966)<br>
   - [ ] Manacher's Algorithm<br>
   - [ ] Z algorithm<br>
   
