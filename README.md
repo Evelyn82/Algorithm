@@ -25,7 +25,7 @@
   - [ ] Manacher's Algorithm<br>
   - [ ] Z algorithm<br>
   
-## Search/Query
+## Search+Query
   - [ ] Ternary Search<br>
   - [ ] Parallel Binary Search<br>
   - [ ] Square Root Decomposition<br>
