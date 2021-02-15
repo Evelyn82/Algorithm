@@ -52,6 +52,7 @@
   - [x] Dijkstra<br>
   - [x] Disjoint Set(Union Find)<br>
   - [x] Floyd Warshall<br>
+  * MST
   - [x] Kruskal<br>
   - [x] Prim<br>
   * Flow
