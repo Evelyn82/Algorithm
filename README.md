@@ -45,11 +45,12 @@
   - [x] SCC(Tarjan Algorithm)<br>
   - [ ] SCC(Kosaraju's Algorithm)<br>
   - [x] Bipartite Matching<br>
-  - [ ] Biconnected Component<br>
+  * Biconnected Component<br>
+    - [x] Articulation Point(Cut vertex)<br>
+    - [x] Articulation Bridge<br>
   - [ ] 2-SAT<br>
   - [ ] Circulation<br>
   - [ ] Meet int the Middle<br>
-  - [x] Articulation Point(Cut vertex)<br>
   - [x] Dijkstra<br>
   - [x] Disjoint Set(Union Find)<br>
   - [x] Floyd Warshall<br>
