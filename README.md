@@ -38,6 +38,7 @@
   - [x] Fenwick Tree(BIT)<br>
   - [ ] Heavy Light Decomposition<br>
   - [ ] Block-Cut Tree<br>
+  - [x] Treap<br>
   - [ ] Persistent Segment Tree<br>
 
 ## Graph
