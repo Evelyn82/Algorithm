@@ -42,7 +42,8 @@
   - [ ] Persistent Segment Tree<br>
 
 ## Graph
-  - [x] SCC(Tarjan algorithm)<br>
+  - [x] SCC(Tarjan Algorithm)<br>
+  - [ ] SCC(Kosaraju's Algorithm)<br>
   - [x] Bipartite Matching<br>
   - [ ] Biconnected Component<br>
   - [ ] 2-SAT<br>
@@ -60,4 +61,4 @@
     - [ ] Minimum Cut<br>
     - [ ] MCMF<br>
     - [ ] Dinic's Algorithm<br>
-    - [ ] Hopcroft-Karp algorithm<br>
+    - [ ] Hopcroft-Karp Algorithm<br>
