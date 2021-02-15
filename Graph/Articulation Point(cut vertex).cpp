@@ -23,7 +23,6 @@ int findCutVertex(int n, bool isRoot) {
 	return ret;
 }
 int main() {
-	
 	for (int i = 1; i < MAXV; i++) {
 		if (!discovered[i]) {
 			counter = 1;
