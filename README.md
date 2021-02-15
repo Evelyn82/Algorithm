@@ -42,5 +42,21 @@
   - [ ] Persistent Segment Tree<br>
 
 ## Graph
+  - [x] SCC(Tarjan algorithm)<br>
+  - [x] Bipartite Matching<br>
+  - [ ] Biconnected Component<br>
+  - [ ] 2-SAT<br>
   - [ ] Circulation<br>
   - [ ] Meet int the Middle<br>
+  - [x] Articulation Point(Cut vertex)<br>
+  - [x] Dijkstra<br>
+  - [x] Disjoint Set(Union Find)<br>
+  - [x] Floyd Warshall<br>
+  - [x] Kruskal<br>
+  - [x] Prim<br>
+  * Flow
+    - [ ] Network Flow<br>
+    - [ ] Minimum Cut<br>
+    - [ ] MCMF<br>
+    - [ ] Dinic's Algorithm<br>
+    - [ ] Hopcroft-Karp algorithm<br>
