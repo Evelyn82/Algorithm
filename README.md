@@ -45,7 +45,7 @@
   - [x] SCC(Tarjan Algorithm)<br>
   - [ ] SCC(Kosaraju's Algorithm)<br>
   - [x] Bipartite Matching<br>
-  - [ ] 2-SAT<br>
+  - [x] 2-SAT<br>
   - [ ] Circulation<br>
   - [ ] Meet int the Middle<br>
   - [x] Dijkstra<br>
