@@ -41,7 +41,7 @@ int main(){
     vector<int> ret(sz,-1);
     for(pair<int,int>& i : v){
         int var=i.second;
-        if(ret[findN(var)]==-1) ret[findN(var)]=!(var%2);
+        if(ret[findN(var)]==-1) ret[findN(var)]=!(var%2); // var%2로 설정시 WA
     }
     for(int i=1;i<=n;++i) printf("%d ", ret[i]);
 }
