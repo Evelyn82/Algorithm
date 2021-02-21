@@ -63,3 +63,10 @@
     - [ ] MCMF<br>
     - [ ] Dinic's Algorithm<br>
     - [ ] Hopcroft-Karp Algorithm<br>
+
+# etc
+  - [ ] Personalized recommender systems<br>
+  - [ ] Multi-armed bandit<br>
+  - [ ] Collaborative filtering<br>
+  - [ ] Content-based filtering<br>
+  - [ ] Matrix factorization<br>
