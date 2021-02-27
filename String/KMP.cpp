@@ -1,3 +1,5 @@
+// O(N+M)
+
 int* getPi(string p){
     int sz=(int)p.size();
     int *pi=new int[sz];
