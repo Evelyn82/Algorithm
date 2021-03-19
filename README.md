@@ -4,6 +4,7 @@
   - [x] Convex Hull Trick<br>
   - [x] Rotating Calipers Algorithm(Shamos's algorithm)<br>
   - [x] Sweep line algorithm(Sweeping)<br>
+  - [ ] OBB(object oriented bounding box)<br>
   
 ## Math
   - [x] Karatsuba algorithm<br>
